@@ -3,18 +3,6 @@
 ## Overview
 This project explores the impact of digital lens usage on eye dryness, leveraging machine learning models to predict eye dryness based on user inputs such as screen usage and lens type. Using Schirmer's Effect as a measurement for dryness, the project integrates multiple regression and classification models into a Flask web application for easy interaction and prediction visualization.
 
-## Table of Contents
-Introduction
-Features
-Tech Stack
-Installation
-Usage
-Model Information
-Best Performing Model
-Project Structure
-Screenshots
-Future Scope
-
 ## Introduction
 Assessing Impact of Digital Lens Usage on Eye Dryness using Schirmer's Effect aims to predict and assess eye dryness due to prolonged screen exposure and digital lens usage. The project uses machine learning models to analyze different factors contributing to eye dryness and offers insights on preventing digital eye strain.
 
@@ -55,8 +43,14 @@ venv\Scripts\activate  # For Windows
 ## Install the required dependencies:
 pip install -r requirements.txt
 
-## Run the application:
-flask run
+## Open the project in Spyder:
+Open Spyder IDE.
+Navigate to the project directory.
+Open the **app.py** file in Spyder.
+
+# Run the application:
+In Spyder, you can run the **app.py** file directly by pressing the green **"Play"** button or by selecting Run > **Run**.
+Make sure Flask is installed and working by checking the console output.
 
 ## Open the web app in your browser:
 http://127.0.0.1:5000/ ## Copy this link and past in web browser
