@@ -48,20 +48,20 @@ Open Spyder IDE.
 Navigate to the project directory.
 Open the **app.py** file in Spyder.
 
-# Run the application:
+## Run the application:
 In Spyder, you can run the **app.py** file directly by pressing the green **"Play"** button or by selecting Run > **Run**.
 Make sure Flask is installed and working by checking the console output.
 
 ## Open the web app in your browser:
 http://127.0.0.1:5000/ ## Copy this link and past in web browser
 
-# Usage
+## Usage
 Input Data: Users can input data related to digital lens usage, screen exposure time, and ambient conditions.
 Model Selection: Users can choose between different models to predict eye dryness.
 Results: After processing, the web app displays the prediction with visual graphs.
 Model Evaluation: The app allows users to compare the performance of various models using metrics like accuracy, mean squared error, and more.
 
-# Model Information
+## Model Information
 This project uses a range of machine learning models:
 Logistic Regression: Used for binary classification, models the probability of an input belonging to a particular class using a logistic function.
 Decision Tree: Splits the dataset recursively based on the most significant features and is interpretable for both numerical and categorical data.
@@ -71,10 +71,10 @@ Support Vector Regressor (SVR): A variation of SVM for regression, uses kernel f
 Gradient Boosting Regressor: Sequentially builds weak learners (decision trees) that correct the errors of previous ones.
 Decision Tree Classifier: Used for classification problems, splits data based on features to maximize information gain.
 
-# Best Performing Model
+## Best Performing Model
 The Decision Tree Classifier was the best performing model in this project. Its accuracy and ability to handle both numerical and categorical data made it the most suitable model for predicting eye dryness. It provided the highest precision and recall metrics, making it ideal for real-world use.
 
-# Project Structure
+## Project Structure
 Assessing-Impact-of-Digital-Lens-Usage-on-Eye-Dryness/
 ├── app.py                  # Main Flask application
 ├── templates/              # HTML, CSS files for the web interface
@@ -83,7 +83,7 @@ Assessing-Impact-of-Digital-Lens-Usage-on-Eye-Dryness/
 ├── README.md               # Project documentation
 ├── requirements.txt        # Dependencies
 
-# Future Scope
+## Future Scope
 Incorporate More Lens Types: Include a wider range of lens types for more refined predictions.
 Improve Model Accuracy: Experiment with other models such as neural networks or deep learning approaches for even better accuracy.
 Real-Time Monitoring: Add features for real-time tracking of eye dryness using IoT devices or sensors.
